@@ -1,0 +1,110 @@
+_Results_
+Total Studies: 13077
+Sections we want: ['RECRUITING', 'ENROLLING_BY_INVITATION', 'ACTIVE_NOT_RECRUITING', 'COMPLETED']
+Num studies after applying filters: 9395
+Sections we dont want: ['TERMINATED', 'UNKNOWN', 'NOT_YET_RECRUITING', 'WITHDRAWN', 'SUSPENDED', 'NO_LONGER_AVAILABLE', 'APPROVED_FOR_MARKETING']
+{
+    "before2020": {
+        "enrollmentNotIncludingNonSpecified": {
+            "MEAN": 2503.288892206629,
+            "STDDEV": 69270.07721357957
+        },
+        "Country": {
+            "Other": 2644,
+            "USA": 3254,
+            "USA+Other": 566,
+            "Not Specified": 417
+        },
+        "sex": {
+            "FEMALE": 3914,
+            "ALL": 2932,
+            "MALE": 27,
+            "Not Specified": 8
+        },
+        "allocation": {
+            "NON_RANDOMIZED": 832,
+            "RANDOMIZED": 2672,
+            "NA": 1811,
+            "Not Specified": 1566
+        },
+        "interventionModel": {
+            "SINGLE_GROUP": 2249,
+            "PARALLEL": 2658,
+            "SEQUENTIAL": 124,
+            "Not Specified": 1681,
+            "CROSSOVER": 101,
+            "FACTORIAL": 68
+        },
+        "masking": {
+            "NONE": 4140,
+            "TRIPLE": 171,
+            "DOUBLE": 387,
+            "Not Specified": 1578,
+            "QUADRUPLE": 247,
+            "SINGLE": 358
+        },
+        "primaryPurpose": {
+            "TREATMENT": 3902,
+            "DIAGNOSTIC": 305,
+            "SUPPORTIVE_CARE": 484,
+            "Not Specified": 1385,
+            "PREVENTION": 423,
+            "HEALTH_SERVICES_RESEARCH": 80,
+            "BASIC_SCIENCE": 70,
+            "OTHER": 149,
+            "SCREENING": 70,
+            "DEVICE_FEASIBILITY": 12,
+            "ECT": 1
+        }
+    },
+    "2020AndBeyond": {
+        "enrollmentNotIncludingNonSpecified": {
+            "MEAN": 787.1408114558473,
+            "STDDEV": 6640.471224992797
+        },
+        "Country": {
+            "Other": 1519,
+            "USA": 831,
+            "USA+Other": 164
+        },
+        "sex": {
+            "ALL": 1260,
+            "FEMALE": 1244,
+            "MALE": 10
+        },
+        "allocation": {
+            "RANDOMIZED": 910,
+            "NON_RANDOMIZED": 278,
+            "Not Specified": 570,
+            "NA": 756
+        },
+        "interventionModel": {
+            "PARALLEL": 984,
+            "Not Specified": 570,
+            "SINGLE_GROUP": 765,
+            "SEQUENTIAL": 155,
+            "CROSSOVER": 23,
+            "FACTORIAL": 17
+        },
+        "masking": {
+            "TRIPLE": 43,
+            "NONE": 1533,
+            "SINGLE": 172,
+            "Not Specified": 570,
+            "DOUBLE": 131,
+            "QUADRUPLE": 65
+        },
+        "primaryPurpose": {
+            "PREVENTION": 144,
+            "SUPPORTIVE_CARE": 218,
+            "TREATMENT": 1247,
+            "Not Specified": 570,
+            "OTHER": 85,
+            "SCREENING": 45,
+            "DIAGNOSTIC": 132,
+            "BASIC_SCIENCE": 26,
+            "HEALTH_SERVICES_RESEARCH": 42,
+            "DEVICE_FEASIBILITY": 5
+        }
+    }
+}
