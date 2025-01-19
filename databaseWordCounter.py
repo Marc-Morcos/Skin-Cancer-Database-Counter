@@ -22,12 +22,12 @@ def getWords(text):
 
     return text
 
-#get brief_summary and detailed_description
+#get brief_summary
 def getSectionsWeWant(filepath):  
     with open(filepath, "r", encoding="utf8") as f:
         data = json.load(f)
         description = data["protocolSection"]["descriptionModule"]
-        text=description.get('briefSummary', "") + "\n" + data.get('detailedDescription', "")    
+        text=description.get('briefSummary', "")
         assert(text.strip()!="")
     
     return text
